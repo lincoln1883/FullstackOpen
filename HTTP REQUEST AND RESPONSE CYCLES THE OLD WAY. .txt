@@ -1,0 +1,9 @@
+
+title event:
+
+
+browser-> server:HTTP POST request to the server new_note(user input).
+server -> browser:Request URL: https://studies.cs.helsinki.fi/exampleapp/new_note
+browser-> server: Request URL: https://studies.cs.helsinki.fi/exampleapp/notes
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js

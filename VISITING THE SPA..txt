@@ -1,0 +1,6 @@
+title  SPA REQUEST RESPONSE CYCLE.
+
+
+browser-> server: HTTP POST request: https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-> browser: status 201 created.
+server->browser:{content: "Hey Yall!", date: "2022-06-09T01:07:52.260Z"}
